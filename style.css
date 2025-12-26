@@ -1,0 +1,29 @@
+body {
+    height: 100vh;
+    font-family: "Segoe UI", sans-serif;
+    overflow: hidden;
+    color: black;
+
+    background-image: url("https://img.freepik.com/premium-photo/electromagnetism-explosion-showcasing-electric-magnetic-field-lines-representing-dynamic-interaction-forces-highenergy-concept_1102000-32617.jpg?semt=ais_hybrid&w=740&q=80");
+    background-size: cover;
+    background-position: center;
+}
+.content {
+    height: calc(100vh - 70px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.content h1 {
+    font-size: 48px;
+    margin-bottom: 15px;
+    text-shadow: 0 0 15px rgba(0, 0, 0, 0.7);
+}
+
+.content p {
+    font-size: 20px;
+    font-weight: bolder;
+}
