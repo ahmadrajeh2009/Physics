@@ -84,3 +84,47 @@ body {
 .section-title.open .arrow {
     transform: rotate(90deg);
 }
+
+.shapes-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 25px;
+    margin: 30px;
+}
+
+.shape-card {
+    background: white;
+    border-radius: 15px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.25);
+}
+
+.shape-img {
+    height: 160px;
+    border: 2px dashed #3b136f;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #3b136f;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+.shape-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    border-radius: 8px;
+}
+
+.shape-card h3 {
+    margin: 10px 0;
+    color: #3b136f;
+}
+
+.shape-card p {
+    font-size: 14px;
+    color: #555;
+    line-height: 1.6;
+}
